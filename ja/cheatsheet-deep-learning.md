@@ -1,18 +1,18 @@
 **1. Deep Learning cheatsheet**
 
-&#10230;
+&#10230; ディープラーニングチートシート
 
 <br>
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; ニューラルネットワーク
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230; ニューラルネットワークは層によって構成されるモデルです。畳み込みニューラルネットワークと再帰的ニューラルネットワークが広く用いられています。
 
 <br>
 
@@ -24,85 +24,85 @@
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230; [入力層, 隠れ層, 出力層]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230; iがニューラルネットワークのi層目、jがその層のj個目のユニットを表すとき、
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230; ただしw, b, zはそれぞれ重み、バイアス、そして出力を意味します。
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; 活性化函数 ― 活性化函数を隠れ層の最後に適用することでモデルを非線型に複雑にすることが出来ます。以下は最も一般的なものです。
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230; [Sigmoid, Tanh, ReLU, Leaky ReLU]
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230; クロスエントロピー損失 ― ニューラルネットワークには以下で定義されるクロスエントロピー損失L(z,y)が最もよく用いられます。
 
 <br>
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230; 学習率 ― 学習率は重みが更新される速度で、しばしばαやηによって表されます。この値は固定したり、適応的に変化させたりします。最近人気があるのはAdamと呼ばれる学習率を自動調整する手法です。
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230; 誤差逆伝播法 ― 誤差逆伝播法はニューラルネットワークの重みを更新する手法で、ネットワークの現在の出力と理想的な出力を考慮します。重みwの勾配を連鎖律を使って次のように計算します。
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230; これを用いて、重みは以下のように更新されます。
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230; 重みの更新 ― ニューラルネットワークの重みは以下のように更新されます。
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230; ステップ1: 学習データから一部（バッチ）を取り出します。
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230; 順伝播をして対応する損失を得ます。
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230; 損失を逆伝播して勾配を得ます。
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230; 得られた勾配によってネットワークの重みを更新します。
 
 <br>
 
